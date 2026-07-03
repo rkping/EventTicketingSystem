@@ -1,5 +1,4 @@
-﻿using EventTicketing.Application.Events;
-using EventTicketing.Domain.Exceptions;
+﻿using EventTicketing.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Text;

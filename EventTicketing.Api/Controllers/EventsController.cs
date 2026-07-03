@@ -4,6 +4,7 @@ using EventTicketing.Application.Events;
 using EventTicketing.Application.Events.commands.CreateEvent;
 using EventTicketing.Application.Events.Queries;
 using EventTicketing.Application.Events.Queries.GetEventById;
+using EventTicketing.Application.Events.Queries.ListEvents;
 using EventTicketing.Application.Events.Commands.UpdateEvent;
 using TicketingSystem.Application.Events.Commands.DeleteEvent;
 using EventTicketing.Application.Common;

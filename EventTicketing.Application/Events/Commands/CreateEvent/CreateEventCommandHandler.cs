@@ -1,5 +1,6 @@
 ﻿using EventTicketing.Application.Abstractions;
 using EventTicketing.Application.Events.commands.CreateEvent;
+using EventTicketing.Domain.Entities;
 using FluentValidation;
 using MediatR;
 

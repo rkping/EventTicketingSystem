@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EventTicketing.Application\EventTicketing.Application.csproj" />
+    <ProjectReference Include="..\EventTicketing.Domain\EventTicketing.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using EventTicketing.Domain.Entities;
 
-namespace EventTicketing.Application.Events;
+namespace EventTicketing.Domain.Entities;
 
 public sealed class Event
 {

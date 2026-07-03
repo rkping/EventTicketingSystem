@@ -20,6 +20,16 @@ public sealed class TicketInventoryService : ITicketInventoryService
               AND SoldQuantity + {quantity} <= Capacity
             """, cancellationToken);
 
+        if (affectedRows == 1)
+        {
+            // Refresh the cached entity to reflect the database changes
+            var tier = _dbContext.PricingTiers.Local.FirstOrDefault(t => t.Id == pricingTierId);
+            if (tier != null)
+            {
+                await _dbContext.Entry(tier).ReloadAsync(cancellationToken);
+            }
+        }
+
         return affectedRows == 1;
     }
 }

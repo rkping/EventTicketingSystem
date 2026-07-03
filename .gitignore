@@ -20,3 +20,7 @@
 /.vs/EventTicketingSystem.slnx/v18
 /.vs/EventTicketingSystem.slnx/FileContentIndex
 /.vs/EventTicketingSystem.slnx/config
+/.vs
+/EventTicketing.Tests/bin/Debug/net10.0
+/EventTicketing.Tests/obj
+/test_output.txt
