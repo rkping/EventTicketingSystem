@@ -1,9 +1,22 @@
+# SQLite local database files
 *.db
 *.db-shm
 *.db-wal
 **/Data/*.db
 **/Data/*.db-shm
 **/Data/*.db-wal
-.vs/
-bin/
-obj/
+
+# Keep empty Data folder
+!**/Data/.gitkeep
+/EventTicketing.Api/bin/Debug/net10.0
+/EventTicketing.Api/obj
+/EventTicketing.Infrastructure/bin/Debug/net10.0
+/EventTicketing.Infrastructure/obj/Debug/net10.0
+/EventTicketing.Domain/obj
+/EventTicketing.Domain/bin/Debug/net10.0
+/EventTicketing.Application/bin/Debug/net10.0
+/EventTicketing.Application/obj
+/EventTicketing.Infrastructure/obj
+/.vs/EventTicketingSystem.slnx/v18
+/.vs/EventTicketingSystem.slnx/FileContentIndex
+/.vs/EventTicketingSystem.slnx/config

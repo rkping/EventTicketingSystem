@@ -2,11 +2,11 @@ using EventTicketing.Api.Middleware;
 using EventTicketing.Application;
 using EventTicketing.Infrastructure;
 using EventTicketing.Infrastructure.Data;
-using Microsoft.AspNetCore.OpenApi;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Directory.CreateDirectory(Path.Combine(builder.Environment.ContentRootPath, "Data"));
 // Add services to the container.
 
 builder.Services.AddControllers();
